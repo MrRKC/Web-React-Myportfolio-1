@@ -1,0 +1,30 @@
+header {
+    height: 100vh;
+    padding-top: 4rem;
+    overflow: hidden;
+}
+
+.header_container {
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    overflow: hidden;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    padding: 3rem 1rem 1rem 1rem;
+}
